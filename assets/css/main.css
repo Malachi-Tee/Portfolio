@@ -2734,6 +2734,7 @@ input, select, textarea {
 	}
 	#logo{
 		color : white !important; 
+		text-shadow:rgb(25, 19, 109) 1px 1px;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2747,10 +2748,12 @@ input, select, textarea {
 
 		#header header p {
 			color: #b7eadc;
+			text-shadow:rgb(25, 19, 109) 1px 1px;
 		}
 
 		#header a {
 			color: #d2f2e9;
+			text-shadow:rgba(252,52,122,1) 1px 1px;
 		}
 
 			#header a:hover {
@@ -2767,7 +2770,7 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 0 auto;
 				width: 8em;
 				height: 10em;
 			}
@@ -2799,7 +2802,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #04081d;
+					color: #6c76a3;
 				}
 
 		#header > nav {
@@ -2836,8 +2839,9 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #f7e6f8;
-							color: #2f3cec !important; /* letter color when clicked on */
+							background-color: rgba(48, 11, 24, 0.4);
+							color: #ffffff !important; /* letter color when clicked on */
+							text-shadow: rgb(105, 52, 252) 2px 2px !important;
 						}
 
 					#header > nav ul li:first-child {
